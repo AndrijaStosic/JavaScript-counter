@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+
+
+#brojac_prikazivac {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+
+.gg {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+
+button {
+    background-color: aqua;
+    font-size: 20px;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    background-color: #00cccc;
+}
